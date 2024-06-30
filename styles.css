@@ -1,0 +1,143 @@
+.body {
+  background-color: ghostwhite;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.avatar {
+  border-radius: 20%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.card {
+  padding: 15px 20px;
+  background: rgb(201, 250, 255);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 15px;
+}
+
+.table td:nth-child(2) {
+  color: blueviolet;
+}
+
+.link-list h2,
+a {
+  margin: 30px 0px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact label {
+  display: block;
+  margin: 10px 0px;
+  font-size: larger;
+}
+
+.contact input,
+textarea {
+  padding: 5px 0px;
+}
+
+.label {
+  width: 50%;
+  text-align: center;
+}
+
+.text-area {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.info {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 20px;
+}
+
+.info-text p {
+  font-style: italic;
+  margin: 0;
+  font-size: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  background: #000;
+  color: aliceblue;
+  width: 150px;
+  height: 50px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* .position {
+  position: relative;
+  border: 5px solid black;
+  margin: 50px;
+  padding: 100px;
+}
+
+.box {
+  position: absolute;
+  bottom: 10;
+  width: 50px;
+  height: 50px;
+  background: pink;
+} */
